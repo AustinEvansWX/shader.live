@@ -1,0 +1,17 @@
+{
+  "name": "shaders.live-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc -w -p .",
+    "build": "tsc -p .",
+    "start": "node dist/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.3"
+  }
+}
